@@ -1,0 +1,16 @@
+{
+  "title": "Instagram Location Stories Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "venues": {
+      "title": "Venues",
+      "type": "array",
+      "description": "List of venue names from spreadsheet",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["venues"]
+}
